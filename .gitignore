@@ -1,6 +1,8 @@
+*
 #忽略所有文件和目录
 !/Chapter1
 !/Chapter1/**/
+!/gnu_files
 !/gnu_files/**/
 
 
