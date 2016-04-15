@@ -1,0 +1,1 @@
+> This code is illegal, because the operator "<<" didn't specify the object;
