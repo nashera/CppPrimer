@@ -1,0 +1,25 @@
+*
+#忽略所有文件和目录
+!/Chapter1/
+!/Chapter1/**/
+!/gnu_files/
+!/gnu_files/**/
+
+
+
+
+#增加指定扩展名文件和Makefile文件
+!*.cpp
+!*.c
+!*.cc
+!*.h
+!Makefile
+!.md
+!makefile
+!README
+
+
+#增加 readme file
+!LICENSE
+!README.md
+
