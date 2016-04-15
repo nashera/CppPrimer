@@ -1,3 +1,4 @@
+
 /*
  * This file contains code from "C++ Primer, Fourth Edition", by Stanley B.
  * Lippman, Jose Lajoie, and Barbara E. Moo, and is covered under the
