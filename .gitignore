@@ -10,6 +10,7 @@
 !*.c
 !*.h
 !Makefile
+!.md
 
 
 #增加 readme file
