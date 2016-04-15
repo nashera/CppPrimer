@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int sum1 = 0;
+    
+    for(int i = 50; i <= 100; i++)
+        sum += i;
+    cout <<　"the sum from 50 to 100 is " << sum1 << endl;
+    int sum2 = 0;
+    int i = 100;
+    while(i >= 50){
+        sum2 += i;
+        i--;
+    }
+    count << "the sum from 50 to 100 is (use while)" << sum2 << endl;
+    return 0;
+        
+}
