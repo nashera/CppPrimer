@@ -18,6 +18,7 @@ int main(){
         }
         cout << ivec[ix-1] + ivec[ix] << endl;
     }
+    if(ivec.size() != )
     
 
     
