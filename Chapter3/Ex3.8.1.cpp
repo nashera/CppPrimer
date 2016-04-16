@@ -3,15 +3,9 @@
 using namespace std;
 
 int main(){
-    
     string s;
-    string t;
-    while(getline(cin, s)){
-        t += s;
+    while(cin >> s){
+        cout << s << endl;
     }
-    cout << t << endl;
     return 0;
-    
 }
-
-

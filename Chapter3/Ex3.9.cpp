@@ -1,17 +1,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 int main(){
-    
     string s;
-    string t;
-    while(getline(cin, s)){
-        t += s;
-    }
-    cout << t << endl;
+    cin >> s;
+    cout << s[0] << endl;
     return 0;
-    
+        // After test, this program is valid.
 }
-
-
