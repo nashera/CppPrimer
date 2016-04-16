@@ -12,7 +12,8 @@ all:
 .PHONY : clean
 clean:
 	rm -rf *~; rm -rf "a.out"
-	cd Chapter1; rm -rf *~; rm -rf "a.out"
+	cd Chapter1; rm -rf *~; rm -rf "a.out"; cd ..;
+	cd Chapter2; rm -rf *~; rm -rf "a.out"; rm -rf \#*\#;
 
 
 
