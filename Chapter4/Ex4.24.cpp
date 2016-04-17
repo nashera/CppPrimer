@@ -4,7 +4,7 @@
 #include <cstdlib>
 using namespace std;
 int main(){
-    char str1[] = "hello, world";
+    char *str1 = const_cast<char*>("hello, world");
     char *str2;
     char str3[40];
         //  char *str3 = (char *)malloc(5);
