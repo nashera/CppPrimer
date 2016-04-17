@@ -11,7 +11,7 @@ int main(){
     strcpy(str2, str1);
     strncpy(str3, str1, 3);
     str3[3] = '\0';
-    cout << "str1 " << str1 << endl;
+    cout << "str1 " << str1 << endl;  // strlen 计算字符串长度的时候不包括null结束符
     cout << "str2 " << str2 << endl;
     cout << "str3 " << str3 << endl;
 //    free(str3);
