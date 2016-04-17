@@ -12,5 +12,6 @@ int main(){
     for(auto index = 0; index != 32; index++){
         cout << bitvec[index] << " ";
     }
+    
     cout << endl;
 }
