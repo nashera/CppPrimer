@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 using namespace std;
-
 int main(){
     int a = 17;
     int *pa = &a;
