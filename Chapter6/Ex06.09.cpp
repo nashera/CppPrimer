@@ -10,14 +10,22 @@ int main(){
 	int newLineCnt = 0;
 	int spcCnt = 0;
 	int ffCnt = 0,  flCnt = 0, fiCnt = 0;
+	int flag = 0;
 	
     while((ch = getchar()) != EOF){
 	  ch = tolower(ch);
 	  switch(ch){
+	  case 'f':
+		if(flag == 1){++ffCnt;}
+		break;
+	  case 'l':
+		if(flag == 1){++flCnt;}
+		break;
 	  case 'a':
 		++aCnt;
 		break;
 	  case 'i':
+		if(flag == 1){++fiCnt;}
 		++iCnt;
 		break;
 	  case 'o':
@@ -38,8 +46,13 @@ int main(){
 	  case ' ':
 		++spcCnt;
 		break;
-		
 	  }
+	   if(ch == 'f'){
+		 flag = 1;
+	   }else{
+		 flag = 0;
+	   }
+	   
     }
     cout << "Number of vowel a: \t" << aCnt << endl;
     cout << "Number of vowel e: \t" << eCnt << endl;
@@ -49,5 +62,8 @@ int main(){
 	cout << "Number of tab: \t" << tabCnt << endl;
 	cout << "Number of newline: \t" << newLineCnt << endl;
 	cout << "Number of space: \t" << spcCnt << endl;
+	cout << "Number of ff: \t" << ffCnt << endl;
+	cout << "Number of fl: \t" << flCnt << endl;
+	cout << "Number of fi: \t" << fiCnt << endl;
     return 0;
 }
